@@ -1,0 +1,109 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @font-face{font-family:'DM';src:url('/workspace/creekstone/fonts/DMSans-430.ttf')}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1240px;min-height:0;background:#f7f5ef;color:#14161a;font-family:'DM',sans-serif;
+       padding:76px 80px;display:flex;flex-direction:column;font-size:13px;line-height:1.6}
+  h1{font-size:13px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#8d8b82}
+  h2{font-size:24px;font-weight:500;letter-spacing:-.015em;margin-top:10px}
+  .rule{height:1px;background:#ded9cd;margin:20px 0 34px}
+  .sec{margin-bottom:52px}
+  .lbl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#a8a79d;margin-bottom:16px}
+  .hero{display:flex;justify-content:center;padding:26px 0 20px;background:#fffdf8;border:1px solid #eae5d9}
+  .hero img{width:560px;display:block}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  .box{background:#fffdf8;border:1px solid #eae5d9;display:flex;align-items:center;justify-content:center;padding:34px}
+  .box.dark{background:#14161a;border-color:#14161a}
+  table{border-collapse:collapse;width:100%}
+  td{padding:9px 0;border-bottom:1px solid #eae5d9;vertical-align:top}
+  td:first-child{width:170px;color:#8d8b82}
+  .sw{display:flex;gap:18px}
+  .chip{flex:1}
+  .chip i{display:block;height:78px;border:1px solid rgba(0,0,0,.22);box-shadow:inset 0 0 0 1px rgba(255,255,255,.4)}
+  .chip b{display:block;font-weight:500;margin-top:9px;font-size:12px}
+  .chip span{color:#8d8b82;font-size:11px}
+  .minrow{display:flex;align-items:flex-end;gap:26px;padding:18px 0 6px}
+  .minrow .c{width:236px;display:flex;flex-direction:column;justify-content:flex-end;text-align:center}
+  .minrow img{display:block;margin:0 auto 10px}
+  .minrow em{font-style:normal;display:block;font-size:10.5px;color:#a8a79d;margin-top:8px}
+  .safe{position:relative;padding:52px;background:#fffdf8;border:1px solid #eae5d9}
+  .safe .in{border:1px dashed #b9b4a4;padding:34px;display:flex;justify-content:center}
+  .safe img{width:300px;display:block}
+  .safe .tag{position:absolute;font-size:10.5px;color:#a8a79d}
+  ul.dont{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px 40px}
+  ul.dont li{padding-left:18px;position:relative;color:#4a4841}
+  ul.dont li:before{content:'';position:absolute;left:0;top:8px;width:8px;height:1.5px;background:#c0563f}
+  footer{margin-top:64px;border-top:1px solid #ded9cd;padding-top:18px;display:flex;justify-content:space-between;font-size:11px;color:#a8a79d}
+</style></head>
+<body>
+  <header>
+    <h1>creek stone</h1>
+    <h2>标识使用规范 · Mark usage</h2>
+    <div class="rule"></div>
+  </header>
+
+  <div class="sec">
+    <div class="lbl">01 · primary lockup</div>
+    <div class="hero"><img src="creekstone-wordmark-ink.svg"></div>
+  </div>
+
+  <div class="sec">
+    <div class="lbl">02 · square &amp; reversed</div>
+    <div class="grid2">
+      <div class="box"><img src="creekstone-stacked-ink.svg" style="width:150px"></div>
+      <div class="box dark"><img src="creekstone-wordmark-cream.svg" style="width:330px"></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="lbl">03 · minimum size</div>
+    <div class="minrow">
+      <div class="c"><img src="creekstone-wordmark-ink.svg" style="width:180px"><em>180 px · 推荐最小值</em></div>
+      <div class="c"><img src="creekstone-wordmark-ink.svg" style="width:96px"><em>96 px · 网页内文</em></div>
+      <div class="c"><img src="creekstone-wordmark-ink.svg" style="width:64px"><em>64 px · 名片</em></div>
+      <div class="c"><img src="creekstone-wordmark-ink.svg" style="width:32px"><em>32 px · 极限</em></div>
+    </div>
+  </div>
+    <div style="margin-top:22px;margin-bottom:62px;color:#6b6960">小于 32 px 不要用字标，改用下方的方形标记。细衬线的横线在 16 px 会消失，这是字体结构决定的。</div>
+  </div>
+
+  <div class="grid2 sec">
+    <div>
+      <div class="lbl">04 · clearance</div>
+      <div class="safe">
+        <div class="in"><img src="creekstone-wordmark-ink.svg"></div>
+        <span class="tag" style="left:-30px;top:50%">≥ 1x</span>
+        <span class="tag" style="right:-30px;top:50%">≥ 1x</span>
+        <span class="tag" style="left:50%;bottom:10px;transform:translateX(-50%)">x = 标识高度</span>
+      </div>
+    </div>
+    <div>
+      <div class="lbl">05 · colour</div>
+      <div class="sw">
+        <div class="chip"><i style="background:#14161a"></i><b>Ink</b><span>#14161A</span></div>
+        <div class="chip"><i style="background:#f7f5ef;border-color:#c9c4b4"></i><b>Paper</b><span>#F7F5EF</span></div>
+      </div>
+      <table style="margin-top:26px">
+        <tr><td>浅底</td><td>Ink 字标 / Paper 背景</td></tr>
+        <tr><td>深底</td><td>Paper 字标 / Ink 背景</td></tr>
+        <tr><td>照片、纹理</td><td>先压一层 Ink 60% 蒙版，再用纸白字标</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="lbl">06 · don't</div>
+    <ul class="dont">
+      <li>不要拉伸或压扁比例</li>
+      <li>不要加描边、阴影、发光</li>
+      <li>不要改动字距或替换字体</li>
+      <li>不要在花纹、渐变上直接压字标</li>
+    </ul>
+  </div>
+
+  <footer>
+    <span>creek stone · mark usage v1.0 · 2026.11</span>
+    <span>wordmark · stacked · mark-c · 6 SVG</span>
+  </footer>
+</body></html>
